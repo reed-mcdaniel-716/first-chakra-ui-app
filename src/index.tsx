@@ -4,24 +4,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // 1. import `ChakraProvider` component and extendTheme function
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
-
+// Photo by <a href="https://unsplash.com/@zacharykadolph?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zachary Kadolph</a> on <a href="https://unsplash.com/photos/hwHHq82Enf0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 // Extend the theme to include custom colors, fonts, etc
-const brandColors = {
+const colors = {
   brand: {
-    plum: '#431E37',
-    creamsicle: '#FE9927',
-    dustyBlue: '#272A4D',
-    clay: '#5B2A06',
-    inky: '#10050B',
-    paper: '#F0EEE1',
-    palmSprings: '#DD735C',
-    slate: '#4E5B6E',
-    ash: '#9796A3',
-    ballet: '#E9C9AC',
+    mediumSlateBlue:"#8670EB",
+    richBlack:"#030314",
+    savoyBlue:"#5163E5",
+    murrey:"#890250",
+    aliceBlue:"#ECF6FE"
   },
 };
 
-const theme = extendTheme({ brandColors });
+const theme = extendTheme({ colors });
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
