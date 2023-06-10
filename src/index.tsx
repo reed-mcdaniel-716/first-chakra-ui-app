@@ -5,15 +5,15 @@ import reportWebVitals from './reportWebVitals';
 // 1. import `ChakraProvider` component and extendTheme function
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 // Photo by <a href="https://unsplash.com/@zacharykadolph?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zachary Kadolph</a> on <a href="https://unsplash.com/photos/hwHHq82Enf0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+
 // Extend the theme to include custom colors, fonts, etc
 const colors = {
   brand: {
-    mediumSlateBlue:"#8670EB",
-    richBlack:"#030314",
-    savoyBlue:"#5163E5",
-    murrey:"#890250",
-    aliceBlue:"#ECF6FE"
+    mediumSlateBlue: '#8670EB',
+    richBlack: '#030314',
+    savoyBlue: '#5163E5',
+    murrey: '#890250',
+    aliceBlue: '#ECF6FE',
   },
 };
 
